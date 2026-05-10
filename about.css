@@ -151,35 +151,60 @@ body {
 
 .testimo-title {
   text-align: center;
+  margin-bottom: 5rem;
 }
 
-.testimo-title  h2{
+.testimo-title h2 {
   font-size: 36px;
   font-weight: 600;
   color: #1e1e1e;
-
 }
 
 .testimo-title h2 span {
-  color:#a4c639;
+  color: #a4c639;
 }
 
-.testimo-title  p {
+.testimo-title p {
   text-transform: uppercase;
   font-size: 15px;
   color: #666;
   letter-spacing: 1px;
   margin-top: 15px;
-
 }
 
 .feedback-section {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.testimo-section1 {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
 }
 
 .feedback-section h2 {
-  
+  font-size: 19px;
+  font-weight: 700;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+}
+
+.feedback-section .testimo-section1 span {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+  color: #a4c639;
+  display: inline-block;
+}
+
+.feedback-section .testimo-section1 p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
