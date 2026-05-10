@@ -78,6 +78,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .count-num1 {
@@ -99,6 +100,49 @@ body {
   letter-spacing: 0.5px;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-block: 5rem;
+}
+
+.about-title {
+  padding: 45px 45px 45px 45px;
+  background-color: #f7f7f7f7;
+}
+
+.about-title .sec1 .right-content {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #666;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.about-img {
+  background: url("images/more-info.jpg") center/cover no-repeat;
+}
+
+.about-title .sec1 h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 2.1875rem;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.about-title .sec1 h2 span {
+  color: #a4c639;
+}
+
+.about-title .sec2 p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
 @media (max-width: 768px) {
   .background-title {
     grid-template-columns: 1fr;
@@ -116,5 +160,14 @@ body {
     flex-direction: column;
     padding: 15px;
     align-items: self-start;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .about-img {
+    height: 343.383px;
   }
 }
