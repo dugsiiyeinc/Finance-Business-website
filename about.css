@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -147,6 +148,7 @@ body {
   margin-top: 140px;
   background-color: #f7f7f7;
   padding: 140px 0px;
+  margin-bottom: 4rem;
 }
 
 .testimo-title {
@@ -233,5 +235,19 @@ body {
 
   .about-img {
     height: 343.383px;
+  }
+
+  .testimonials,
+  .testimonials * {
+    max-width: 100%;
+  }
+
+  .feedback-section {
+    grid-template-columns: 1fr;
+    padding-inline: 15px;
+  }
+
+  .testimo-title {
+    padding-inline: 15px;
   }
 }
