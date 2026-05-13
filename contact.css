@@ -1,28 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
-    width: 1110px;
-    margin-inline: auto;
+  width: 1110px;
+  margin-inline: auto;
 }
 
 .contact {
   margin-block: 4rem;
-  
-
 }
 
 .form-background {
-  background-color:#a4c639;
+  background-color: #a4c639;
   padding: 60px;
   border-radius: 5px;
   text-align: center;
@@ -34,29 +32,27 @@ body {
 }
 
 .contact-title h2 {
-    font-size: 36px;
-    font-weight: 600;
-    color: #1e1e1e;
-
+  font-size: 36px;
+  font-weight: 600;
+  color: #1e1e1e;
 }
 
-.contact-title h2 span{
-  color:#a4c639
-
+.contact-title h2 span {
+  color: #a4c639;
 }
 
 .contact-title p {
-    margin-top: 15px;
-    text-transform: uppercase;
-    font-size: 15px;
-    color: #666;
-    letter-spacing: 1px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666;
+  letter-spacing: 1px;
 }
 
 .inputs {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 form input {
@@ -65,17 +61,15 @@ form input {
   line-height: 40px;
   padding-inline: 15px;
   font-size: 13px;
+  font-weight: 500;
   border: none;
   margin-bottom: 35px;
   outline: none;
   width: 100%;
-  
- 
 }
 
-
 form .btn {
-  border: 2px solid #fff
+  border: 2px solid #fff;
 }
 
 form textarea {
@@ -86,9 +80,10 @@ form textarea {
   margin-bottom: 35px;
   width: 100%;
   outline: none;
-  }
+  margin-top: 20px;
+}
 
-  .btn {
+.btn {
   background-color: #a4c639;
   font-size: 13px;
   font-weight: 700;
@@ -101,6 +96,17 @@ form textarea {
 }
 
 form .btn:hover {
-    background-color: #fff;
-    color: #a4c639;
+  background-color: #fff;
+  color: #a4c639;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .inputs {
+    grid-template-columns: 1fr;
+  }
 }
