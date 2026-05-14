@@ -106,18 +106,18 @@ form .btn:hover {
   padding: 60px 0px;
 }
 
+
 .logo {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  
+  display; grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .logo img {
   margin-inline: 49.5px;
+  width: 156px;
+  height: 45px;
 }
  
-
-
 @media (max-width: 768px) {
   .contact {
     width: 100%;
@@ -127,4 +127,21 @@ form .btn:hover {
   .inputs {
     grid-template-columns: 1fr;
   }
+
+  .logos {
+    width: 100%;
+  
+  }
+
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+
+  }
+  
 }
