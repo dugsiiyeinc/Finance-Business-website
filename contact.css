@@ -100,6 +100,24 @@ form .btn:hover {
   color: #a4c639;
 }
 
+.logos {
+  background-color: #f7f7f7;
+  margin-top: 140px;
+  padding: 60px 0px;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+
+.logo img {
+  margin-inline: 49.5px;
+}
+ 
+
+
 @media (max-width: 768px) {
   .contact {
     width: 100%;
