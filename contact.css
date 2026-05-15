@@ -117,7 +117,92 @@ form .btn:hover {
   width: 156px;
   height: 45px;
 }
- 
+
+.sub-footer {
+  background-color: #232323;
+  padding: 80px 0px;
+}
+
+.footer-design {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 3rem;
+}
+
+.footer-title h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  margin-bottom: 35px;
+  color: #fff;
+
+}
+
+.footer-title p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.fa-brands {
+  background-color: #fff;
+  color:#232323;
+  width:  34px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 25px;
+  margin-inline: 3px;
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  background-color:#a4c639;
+}
+
+.use-full-links h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.use-full-links li a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.use-full-links li {
+  list-style: none;
+}
+
+.use-full-links li a:hover {
+  color:#a4c639;
+}
+
+
+
+.form-inputs input {
+  background-color: #343434;
+  color:#fff;
+  margin: 0px 0px 15px
+
+}
+
+.form-inputs textarea {
+  background-color: #343434;
+  color: #fff;
+  margin: 0px 0px 15px
+}
+
+.form-inputs .btn {
+  border: none;
+}
 @media (max-width: 768px) {
   .contact {
     width: 100%;
@@ -143,5 +228,11 @@ form .btn:hover {
     gap: 2rem;
 
   }
-  
+
+  .footer-design {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 15px
+  }
+
 }
