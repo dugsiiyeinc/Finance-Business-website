@@ -114,8 +114,6 @@ form .btn:hover {
 
 .logo img {
   margin-inline: 49.5px;
-  width: 156px;
-  height: 45px;
 }
 
 .sub-footer {
@@ -203,6 +201,36 @@ form .btn:hover {
 .form-inputs .btn {
   border: none;
 }
+
+.last-footer {
+  background-color: #343434;
+  padding: 25px 0px
+
+}
+
+.last-footer span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer-title02 {
+  display: flex;
+  justify-content: center;
+  gap: 5px
+}
+
+.footer-title02 li {
+  list-style: none
+}
+.footer-title02 li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
 @media (max-width: 768px) {
   .contact {
     width: 100%;
@@ -233,6 +261,12 @@ form .btn:hover {
     grid-template-columns: 1fr;
     width: 100%;
     padding: 15px
+  }
+
+  .footer-title02 {
+    width: 100%;
+    padding: 15px;
+    
   }
 
 }
