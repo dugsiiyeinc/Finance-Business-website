@@ -285,6 +285,222 @@ form textarea {
   
 }
 
+.contact {
+  margin-block: 4rem;
+}
+
+.form-background {
+  background-color: #a4c639;
+  padding: 60px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.contact-title h2 span {
+  color: #a4c639;
+}
+
+.contact-title p {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+form input {
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  padding-inline: 15px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  margin-bottom: 35px;
+  outline: none;
+  width: 100%;
+}
+
+form .btn {
+  border: 2px solid #fff;
+}
+
+form textarea {
+  height: 120px;
+  border-radius: 19px;
+  border: none;
+  padding: 15px;
+  margin-bottom: 35px;
+  width: 100%;
+  outline: none;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #a4c639;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+form .btn:hover {
+  background-color: #fff;
+  color: #a4c639;
+}
+
+.logos {
+  background-color: #f7f7f7;
+  margin-top: 140px;
+  padding: 60px 0px;
+}
+
+
+.logo {
+  display; grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.logo img {
+  margin-inline: 49.5px;
+}
+
+.sub-footer {
+  background-color: #232323;
+  padding: 80px 0px;
+}
+
+.footer-design {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 3rem;
+}
+
+.footer-title h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  margin-bottom: 35px;
+  color: #fff;
+
+}
+
+.footer-title p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.fa-brands {
+  background-color: #fff;
+  color:#232323;
+  width:  34px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 25px;
+  margin-inline: 3px;
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  background-color:#a4c639;
+}
+
+.use-full-links h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.use-full-links li a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.use-full-links li {
+  list-style: none;
+}
+
+.use-full-links li a:hover {
+  color:#a4c639;
+}
+
+
+
+.form-inputs input {
+  background-color: #343434;
+  color:#fff;
+  margin: 0px 0px 15px
+
+}
+
+.form-inputs textarea {
+  background-color: #343434;
+  color: #fff;
+  margin: 0px 0px 15px
+}
+
+.form-inputs .btn {
+  border: none;
+}
+
+.last-footer {
+  background-color: #343434;
+  padding: 25px 0px
+
+}
+
+.last-footer span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer-title02 {
+  display: flex;
+  justify-content: center;
+  gap: 5px
+}
+
+.footer-title02 li {
+  list-style: none
+}
+.footer-title02 li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
 @media (max-width: 768px) {
   .background-title {
     grid-template-columns: 1fr;
