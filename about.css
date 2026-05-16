@@ -542,4 +542,41 @@ form .btn:hover {
   .testimo-title {
     padding-inline: 20px;
   }
+
+  .contact {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .inputs {
+    grid-template-columns: 1fr;
+  }
+
+  .logos {
+    width: 100%;
+  
+  }
+
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+
+  }
+
+  .footer-design {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 15px
+  }
+
+  .footer-title02 {
+    width: 100%;
+    padding: 15px;
+    
+  }
 }
