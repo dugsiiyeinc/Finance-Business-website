@@ -57,6 +57,9 @@
     
   
 }
+.button-sidebar .navbar-brand {
+    color:#a4c639;
+}
 
 .button-sidebar .navbar-brand{
     text-decoration: none;
@@ -68,7 +71,7 @@
 }
 
 .collapse.navbar-collapse{
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
